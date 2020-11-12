@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>Tremenda Facha</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<header>
+	 <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <img id="logo" src="images/logo.png" alt="Logo">
+          </a>
+
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Pito pato</h1></a>
+          </div>
+
+          <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li id="navHomeButton" class="visible-xs active">
+              <a href="index.html">
+                <span class="glyphicon glyphicon-home"></span> Home</a>
+            </li>
+            <li>
+              <a class="glifi" href="menu.html">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Carta</a>
+            </li>
+            <li>
+              <a class="glifi" href="menu_del_dia.html">
+                <span class="glyphicon glyphicon-heart "></span><br class="hidden-xs"> Menú del dia</a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a id="numref" href="tel:618873458">
+                <span class="glifi">618873458</span></a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+	</header>
+
+  <div id="call-btn" class="visible-xs text-center">
+    <a class="btn" href="tel:618873458">
+      <span class="glyphicon glyphicon-earphone"></span>
+      618873458
+    </a>
+  </div>
+
+<!-- MAIN CONTENT -->
+
+  <div id="main-content" class="container">
+    <div class="jumbotron">
+      <img src="images/principal.jpg" alt="Imagen principal" class="img-responsive">
+    </div>
+
+    <div id="home-tiles" class="row">
+      <div class=" col-lg-4 col-md-6 col-sm-6 col-xs-12 text-center">
+        <a href="menu.html"><div id="menu-tile"><img src="images/carta.png"></div></a>
+      </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 text-center">
+        <a href="menu_del_dia.html"><div id="specials-tile"><img id=" pru" src="images/manu_del_dia.png"></div></a>
+      </div>
+
+      <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 text-center">
+        <a href="https://www.google.es/maps/place/El+Charro+Negro/@37.976236,-0.6821978,17z/data=!3m1!4b1!4m5!3m4!1s0xd630755861167e3:0xc655c114ef313653!8m2!3d37.976236!4d-0.6800091" target="_blank">
+
+          <div id="map-tile"class="hidden-sm hidden-md">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3145.0380978003286!2d-0.6821977843332255!3d37.97624020831485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd630755861167e3%3A0xc655c114ef313653!2sEl%20Charro%20Negro!5e0!3m2!1sen!2ses!4v1605174886839!5m2!1sen!2ses" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+
+          <div id="map-tile"class="visible-sm">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3145.0382789917244!2d-0.6821977843142949!3d37.97623597972331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd630755861167e3%3A0xc655c114ef313653!2sEl%20Charro%20Negro!5e0!3m2!1sen!2ses!4v1605005156894!5m2!1sen!2ses" width="610" height="310" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+
+          
+          <div id="map-tile"class="visible-md">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3145.0382789917244!2d-0.6821977843142949!3d37.97623597972331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd630755861167e3%3A0xc655c114ef313653!2sEl%20Charro%20Negro!5e0!3m2!1sen!2ses!4v1605005156894!5m2!1sen!2ses" width="800" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+<!-- FOOTER -->
+
+  <footer calss="panel-footer">
+    <div class="container">
+      <div class="row">
+
+        <section id="hours" class="col-sm-4">
+          <span>Horario:</span><br>
+          Lun-Vie: 11:15 - 23:00<br>
+          Sab-Dom: 12:00 - 01:00<br>
+          <hr class="visible-xs">
+        </section>
+
+        <section id="adress" class="col-sm-4">
+          <span>Dirección:</span><br>
+          Plaza Castelar 4<br>
+          03181 Torrevieja, Alicante<br>
+          <p>*Entregamos en un radio de 10KM a partid del restaurante.</p>
+          <hr class="visible-xs">
+        </section>
+
+        <section id="testimonials" class="col-sm-4">
+          <p>Esta página se la mejor que he visto en mi vida!!!</p>
+          <p>No podria eshaber esperado nada tan bueno de la primera página web de alguien.</p>
+        </section>
+      </div>
+    </div>
+  </footer>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

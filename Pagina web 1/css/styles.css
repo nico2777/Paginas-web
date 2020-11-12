@@ -1,0 +1,173 @@
+body, .jumbotron{
+	background-color: #97bcb5;
+}
+
+/******HEADER********/
+
+#header-nav{
+	background-color: #8fb3c0;
+	border-radius: 0;
+	border:0;
+}
+
+#logo{
+	border-radius: 200px;
+	padding: 10px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+h1, h2, h3{
+	color: white;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+}
+
+#navbarToggle{
+	margin: 30px;
+}
+
+#collapsable-nav{
+	padding:15px;
+}
+
+#logo{
+	width:100px;
+	height: 100px;
+}
+
+.navbar-header{
+	padding: 1px;
+}
+
+.glyphicon, .glifi{
+	color:white;
+}
+.navbar-default .navbar-nav>li>a{
+	color:white;
+	border-radius: 10px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	background-color: #7a7a7a;
+	color: white;
+}
+
+#numref{
+	padding: 5px;
+	font-size: 2em;
+	margin-top:20px;
+	margin-left: 30px;
+}
+
+
+/******MAIN CONTENT INDEX********/
+
+#call-btn{
+	background-color: #8fb3c0;
+	margin:30px;
+	border-radius: 30px;
+	border:solid white 3px;
+}
+#call-btn:hover{
+	color:white;
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+a.btn{
+	width:100%;
+	text text-decoration: none;
+	color: white;
+}
+.jumbotron{
+	margin:0;
+	padding: 0;
+}
+
+.img-responsive{
+	align-content: center;
+	margin-left:  auto;
+	width:1500px;
+}
+a.btn:hover{
+	color: white;
+}
+
+
+#home-tiles{
+	padding: 60px;
+}
+
+#menu-tile, #specials-tile, #map-tile{
+	margin:auto;
+	margin-bottom: 20px;
+}
+
+#menu-tile, #specials-tile {
+  height: 304px;
+  width: 304px;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid white;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+
+
+#menu-tile:hover, #specials-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+/********INDICE*********/
+h3#entrantes{
+	margin-top:50px;
+}
+
+a.ind-principal{
+	background-color: #8fb3c0;
+	margin:10px;
+	padding:10px;
+	border-radius: 5px;
+	font-size: 2em;
+}
+
+a.indice{
+	padding: 5px;
+	margin-right:20px;
+
+}
+a.indice:hover{
+	text-decoration: none;
+	background-color: #7a7a7a!important;
+	border-radius: 5px;
+}
+li{
+	color: white;
+}
+
+li li{
+	list-style: none;
+}
+
+a.indice{
+	color: white;
+}
+.glyphicon-chevron-down{
+	border:solid white 1px;
+	border-radius: 5px;
+	background-color: #8fb3c0;
+}
+
+.plato{
+	margin-bottom: 30px}
+
+/*****FOOTER****/
+
+
+footer{
+	background-color: #515657;
+	padding: 20px;
+	color:white;
+}
